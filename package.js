@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.versionsFrom('1.0');
-	api.addFiles('ui-bootstrap-tpls.min.js.js', 'client');
+	api.addFiles('ui-bootstrap-tpls.min.js', 'client');
 });
 
 Package.onTest(function(api) {
